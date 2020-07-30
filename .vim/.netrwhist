@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/global/u2/g/gaidai/.conda/envs/myenv'
+let g:netrw_dirhist_2='/global/u2/g/gaidai/marquette/research/spectrumsdt/.git'
+let g:netrw_dirhist_3='/global/u2/g/gaidai/marquette/research/spectrumsdt/src'
+let g:netrw_dirhist_4='/global/u2/g/gaidai/marquette/research/spectrumsdt'
+let g:netrw_dirhist_5='/global/u2/g/gaidai/marquette/research/spectrumsdt/src'
