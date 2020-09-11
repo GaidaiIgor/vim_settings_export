@@ -77,7 +77,7 @@ def fortran_complete():
                       'end if' ),
         SyntaxElement(re.compile(r'^\s*((?P<name>([a-zA-Z0-9_]+))\s*:)?\s*do'),
                       'end do' ),
-        SyntaxElement(re.compile(r'^\s*select case '),
+        SyntaxElement(re.compile(r'^\s*select'),
                       'end select' )
     ]
 
