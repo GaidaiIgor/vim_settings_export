@@ -94,5 +94,10 @@ set undodir=/home/gaidai/.vimundo/
 set undolevels=999999
 
 set completeopt-=preview
-
 syntax on
+
+" Disable sounds
+set belloff=all
+
+" Fixes syntax highligh crashes for long files
+set redrawtime=10000
