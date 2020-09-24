@@ -62,6 +62,9 @@ nnoremap 0 10gt
 let g:lasttab = 1
 nmap q :exe "tabn ".g:lasttab<CR>
 nmap <c-r> :redo<CR>
+map <F1> <Esc>
+imap <F1> <Esc>
+
 au TabLeave * let g:lasttab = tabpagenr()
 
 command! W w
