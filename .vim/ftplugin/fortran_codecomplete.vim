@@ -78,7 +78,9 @@ def fortran_complete():
         SyntaxElement(re.compile(r'^\s*((?P<name>([a-zA-Z0-9_]+))\s*:)?\s*do'),
                       'end do' ),
         SyntaxElement(re.compile(r'^\s*select'),
-                      'end select' )
+                      'end select' ),
+        SyntaxElement(re.compile(r'^\s*associate'),
+                      'end associate' )
     ]
 
     cb = vim.current.buffer
