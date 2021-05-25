@@ -65,7 +65,7 @@ def fortran_complete():
                       'end program' ),
         SyntaxElement(re.compile(r'^\s*type.*?(::)?\s*(?P<name>[a-zA-Z0-9_]+)'),
                       'end type' ),
-        SyntaxElement(re.compile(r'^\s*interface\s*'),
+        SyntaxElement(re.compile(r'interface\s*'),
                       'end interface' ),
         SyntaxElement(re.compile(r'^\s*module\s+(?P<name>[a-zA-Z0-9_]+)'),
                       'end module' ),
